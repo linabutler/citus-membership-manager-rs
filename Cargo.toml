@@ -6,6 +6,6 @@ edition = "2024"
 [dependencies]
 anyhow = "1"
 bollard = "0.19"
-tokio = { version = "1", features = ["full"] }
+tokio = { version = "1", features = ["macros", "signal"] }
 tokio-postgres = "0.7"
 tokio-stream = "0.1"
